@@ -100,7 +100,7 @@ node {
 
 # Detects faces.
 node {
-  calculator: "FaceDetectionShortRangeGpu"
+  calculator: "FaceDetectionLongRangeGpu"
   input_stream: "IMAGE:gated_image"
   output_stream: "DETECTIONS:all_face_detections"
 }
